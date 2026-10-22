@@ -1,0 +1,37 @@
+# Directories
+bin
+bin-*
+
+# Release archives (scripts/release/package.py)
+dist
+
+cmake-build-*
+
+# Downloaded shader tools (scripts/fetch_shader_tools.sh)
+Vendor/tools/
+
+out
+xcode
+
+# Mac os stuff
+.DS_Store
+
+#CLion
+.idea
+
+# Visual Studio Code
+.vscode
+
+# Xcode files and folder
+*.xcodeproj
+*.xcworkspace
+
+# Visual Studio files and folder
+visualstudio
+.vs/
+**.sln
+**.vcxproj
+**.vcxproj.filters
+**.vcxproj.user
+
+.cache
