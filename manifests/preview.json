@@ -1,0 +1,43 @@
+{
+  "channel": "preview",
+  "version": "0.1.0-preview.2",
+  "build": 2,
+  "commit": "046e070",
+  "date": "2026-10-22",
+  "notes": "First preview build. The macOS app is not signed yet: after copying it to Applications, run `xattr -dr com.apple.quarantine /Applications/PandaEditor.app`. On Windows, choose More info, then Run anyway.",
+  "files": [
+    {
+      "os": "linux",
+      "arch": "x86_64",
+      "kind": "tar.gz",
+      "size": 41638722,
+      "sha256": "da8cd97f38b256640d439ce9098abda651a7f1e6deb3ada7345212149e5972d9",
+      "urls": [
+        "https://s3.regru.cloud/panda/builds/preview/PandaEditor-0.1.0-preview.2-linux-x86_64.tar.gz",
+        "https://github.com/toyship-studio/panda-builds/releases/download/preview/PandaEditor-0.1.0-preview.2-linux-x86_64.tar.gz"
+      ]
+    },
+    {
+      "os": "macos",
+      "arch": "arm64",
+      "kind": "dmg",
+      "size": 40116170,
+      "sha256": "1a55b6d7261e94097c2cb9de0d2e141d36b9dc950f37e6bcf53e2fff968cc0fc",
+      "urls": [
+        "https://s3.regru.cloud/panda/builds/preview/PandaEditor-0.1.0-preview.2-macos-arm64.dmg",
+        "https://github.com/toyship-studio/panda-builds/releases/download/preview/PandaEditor-0.1.0-preview.2-macos-arm64.dmg"
+      ]
+    },
+    {
+      "os": "windows",
+      "arch": "x86_64",
+      "kind": "zip",
+      "size": 37605367,
+      "sha256": "529f05a7ab84590f0ba87f52e97e24533ac3cf76171c1fd5292fcef40faea718",
+      "urls": [
+        "https://s3.regru.cloud/panda/builds/preview/PandaEditor-0.1.0-preview.2-windows-x86_64.zip",
+        "https://github.com/toyship-studio/panda-builds/releases/download/preview/PandaEditor-0.1.0-preview.2-windows-x86_64.zip"
+      ]
+    }
+  ]
+}
