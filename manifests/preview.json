@@ -1,42 +1,42 @@
 {
   "channel": "preview",
-  "version": "0.1.0-preview.2",
-  "build": 2,
-  "commit": "046e070",
-  "date": "2026-10-22",
-  "notes": "First preview build. The macOS app is not signed yet: after copying it to Applications, run `xattr -dr com.apple.quarantine /Applications/PandaEditor.app`. On Windows, choose More info, then Run anyway.",
+  "version": "0.1.0-preview.7",
+  "build": 7,
+  "commit": "1401553",
+  "date": "2026-10-24",
+  "notes": "The macOS build is now signed and notarized: it opens without Gatekeeper warnings. On Windows, SmartScreen still warns about an unknown publisher: choose More info, then Run anyway.",
   "files": [
     {
       "os": "linux",
       "arch": "x86_64",
       "kind": "tar.gz",
-      "size": 41638722,
-      "sha256": "da8cd97f38b256640d439ce9098abda651a7f1e6deb3ada7345212149e5972d9",
+      "size": 41639307,
+      "sha256": "ae9acebca73ac5253d1d369ee6ec0c5f33a888288d18e8cac4aa5a7bf476ff2e",
       "urls": [
-        "https://s3.regru.cloud/panda/builds/preview/PandaEditor-0.1.0-preview.2-linux-x86_64.tar.gz",
-        "https://github.com/toyship-studio/panda-builds/releases/download/preview/PandaEditor-0.1.0-preview.2-linux-x86_64.tar.gz"
+        "https://s3.regru.cloud/panda/builds/preview/PandaEditor-0.1.0-preview.7-linux-x86_64.tar.gz",
+        "https://github.com/toyship-studio/panda-builds/releases/download/preview/PandaEditor-0.1.0-preview.7-linux-x86_64.tar.gz"
       ]
     },
     {
       "os": "macos",
       "arch": "arm64",
       "kind": "dmg",
-      "size": 40116170,
-      "sha256": "1a55b6d7261e94097c2cb9de0d2e141d36b9dc950f37e6bcf53e2fff968cc0fc",
+      "size": 40744530,
+      "sha256": "c832be1fe6253e79dd5b76943099cf3d8310a66f2b36f7c189d5cb2025f71b63",
       "urls": [
-        "https://s3.regru.cloud/panda/builds/preview/PandaEditor-0.1.0-preview.2-macos-arm64.dmg",
-        "https://github.com/toyship-studio/panda-builds/releases/download/preview/PandaEditor-0.1.0-preview.2-macos-arm64.dmg"
+        "https://s3.regru.cloud/panda/builds/preview/PandaEditor-0.1.0-preview.7-macos-arm64.dmg",
+        "https://github.com/toyship-studio/panda-builds/releases/download/preview/PandaEditor-0.1.0-preview.7-macos-arm64.dmg"
       ]
     },
     {
       "os": "windows",
       "arch": "x86_64",
       "kind": "zip",
-      "size": 37605367,
-      "sha256": "529f05a7ab84590f0ba87f52e97e24533ac3cf76171c1fd5292fcef40faea718",
+      "size": 37605422,
+      "sha256": "f0981026a4c9989913dc89d45f19b00d471c325cd0d32463a9412713ac080d73",
       "urls": [
-        "https://s3.regru.cloud/panda/builds/preview/PandaEditor-0.1.0-preview.2-windows-x86_64.zip",
-        "https://github.com/toyship-studio/panda-builds/releases/download/preview/PandaEditor-0.1.0-preview.2-windows-x86_64.zip"
+        "https://s3.regru.cloud/panda/builds/preview/PandaEditor-0.1.0-preview.7-windows-x86_64.zip",
+        "https://github.com/toyship-studio/panda-builds/releases/download/preview/PandaEditor-0.1.0-preview.7-windows-x86_64.zip"
       ]
     }
   ]
