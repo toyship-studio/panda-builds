@@ -1,42 +1,42 @@
 {
   "channel": "preview",
-  "version": "0.1.0-preview.8",
-  "build": 8,
-  "commit": "2fc33e3",
-  "date": "2026-10-26",
-  "notes": "Auto update and system fonts added",
+  "version": "0.1.0-preview.9",
+  "build": 9,
+  "commit": "a877616",
+  "date": "2026-10-27",
+  "notes": "PandaUI update",
   "files": [
     {
       "os": "linux",
       "arch": "x86_64",
       "kind": "tar.gz",
-      "size": 42218272,
-      "sha256": "d1f6d718b368ecf222537eb81e530dc72f02a77735e90226369b16f4be4db0ba",
+      "size": 42661593,
+      "sha256": "7c5704883729b27b00b956c66309df6d4e223b14f401686bfc3743e817cb5061",
       "urls": [
-        "https://s3.regru.cloud/panda/builds/preview/PandaEditor-0.1.0-preview.8-linux-x86_64.tar.gz",
-        "https://github.com/toyship-studio/panda-builds/releases/download/preview/PandaEditor-0.1.0-preview.8-linux-x86_64.tar.gz"
+        "https://s3.regru.cloud/panda/builds/preview/PandaEditor-0.1.0-preview.9-linux-x86_64.tar.gz",
+        "https://github.com/toyship-studio/panda-builds/releases/download/preview/PandaEditor-0.1.0-preview.9-linux-x86_64.tar.gz"
       ]
     },
     {
       "os": "macos",
       "arch": "arm64",
       "kind": "dmg",
-      "size": 41294229,
-      "sha256": "59bde10be0be465e49880850a4c71b8f54e5213bcabb98b87d3a9fcb585185de",
+      "size": 41430106,
+      "sha256": "04bb7697087dcdff889d69d7bcd4df694ccef2b7a199c5ebec0cca7cc0f21fe1",
       "urls": [
-        "https://s3.regru.cloud/panda/builds/preview/PandaEditor-0.1.0-preview.8-macos-arm64.dmg",
-        "https://github.com/toyship-studio/panda-builds/releases/download/preview/PandaEditor-0.1.0-preview.8-macos-arm64.dmg"
+        "https://s3.regru.cloud/panda/builds/preview/PandaEditor-0.1.0-preview.9-macos-arm64.dmg",
+        "https://github.com/toyship-studio/panda-builds/releases/download/preview/PandaEditor-0.1.0-preview.9-macos-arm64.dmg"
       ]
     },
     {
       "os": "windows",
       "arch": "x86_64",
       "kind": "zip",
-      "size": 38195063,
-      "sha256": "ae906ad5d4987b60cb3f52cc22e3b3fd7b29acc9bd3d9c572b175653c51d2f2a",
+      "size": 38407649,
+      "sha256": "eabb52878301375af07c14bbca462eb0065dd6869a5b1e3eb510eb459dde1a6d",
       "urls": [
-        "https://s3.regru.cloud/panda/builds/preview/PandaEditor-0.1.0-preview.8-windows-x86_64.zip",
-        "https://github.com/toyship-studio/panda-builds/releases/download/preview/PandaEditor-0.1.0-preview.8-windows-x86_64.zip"
+        "https://s3.regru.cloud/panda/builds/preview/PandaEditor-0.1.0-preview.9-windows-x86_64.zip",
+        "https://github.com/toyship-studio/panda-builds/releases/download/preview/PandaEditor-0.1.0-preview.9-windows-x86_64.zip"
       ]
     }
   ]
