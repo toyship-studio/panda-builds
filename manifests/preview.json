@@ -1,42 +1,42 @@
 {
   "channel": "preview",
-  "version": "0.1.0-preview.14",
-  "build": 14,
-  "commit": "9062010",
-  "date": "2026-11-06",
-  "notes": "Physics joint types added",
+  "version": "0.1.0-preview.15",
+  "build": 15,
+  "commit": "2edcd30",
+  "date": "2026-11-25",
+  "notes": "Engine document model redesign, rendering pipeline update",
   "files": [
     {
       "os": "linux",
       "arch": "x86_64",
       "kind": "tar.gz",
-      "size": 44718563,
-      "sha256": "6a4f1b0cbc66a5e5841eb865c30c258fa76581a85dfd5645bf8b4136830b8ea0",
+      "size": 46082151,
+      "sha256": "b22f1b2ab78a2d864d59c0ac5d64df814b6e609aaa81ac1cccb8ab08987cd192",
       "urls": [
-        "https://s3.regru.cloud/panda/builds/preview/PandaEditor-0.1.0-preview.14-linux-x86_64.tar.gz",
-        "https://github.com/toyship-studio/panda-builds/releases/download/preview/PandaEditor-0.1.0-preview.14-linux-x86_64.tar.gz"
+        "https://s3.regru.cloud/panda/builds/preview/PandaEditor-0.1.0-preview.15-linux-x86_64.tar.gz",
+        "https://github.com/toyship-studio/panda-builds/releases/download/preview/PandaEditor-0.1.0-preview.15-linux-x86_64.tar.gz"
       ]
     },
     {
       "os": "macos",
       "arch": "arm64",
       "kind": "dmg",
-      "size": 43282809,
-      "sha256": "fc128327a27cd460039c294c6f352aa476311caf3046243223532634aca52b05",
+      "size": 45195042,
+      "sha256": "8a30321fca92b7be7867b0568f4f9ac70fd1d82f595ffa6ae64e43d511e41279",
       "urls": [
-        "https://s3.regru.cloud/panda/builds/preview/PandaEditor-0.1.0-preview.14-macos-arm64.dmg",
-        "https://github.com/toyship-studio/panda-builds/releases/download/preview/PandaEditor-0.1.0-preview.14-macos-arm64.dmg"
+        "https://s3.regru.cloud/panda/builds/preview/PandaEditor-0.1.0-preview.15-macos-arm64.dmg",
+        "https://github.com/toyship-studio/panda-builds/releases/download/preview/PandaEditor-0.1.0-preview.15-macos-arm64.dmg"
       ]
     },
     {
       "os": "windows",
       "arch": "x86_64",
       "kind": "zip",
-      "size": 40348273,
-      "sha256": "30ada10e000ba2064a1cc94501700cf558784108f25fbc79cbefcac42d55b064",
+      "size": 41915169,
+      "sha256": "8469a503e6abb9f5a05e55c79833995fac364e3e5e08b984e873e71ddc0c8dd7",
       "urls": [
-        "https://s3.regru.cloud/panda/builds/preview/PandaEditor-0.1.0-preview.14-windows-x86_64.zip",
-        "https://github.com/toyship-studio/panda-builds/releases/download/preview/PandaEditor-0.1.0-preview.14-windows-x86_64.zip"
+        "https://s3.regru.cloud/panda/builds/preview/PandaEditor-0.1.0-preview.15-windows-x86_64.zip",
+        "https://github.com/toyship-studio/panda-builds/releases/download/preview/PandaEditor-0.1.0-preview.15-windows-x86_64.zip"
       ]
     }
   ]
